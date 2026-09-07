@@ -1,0 +1,32 @@
+WHERE TO ADD YOUR PHOTOS
+
+1) PROFILE PHOTO
+Put your real profile photo here:
+images/profile.jpeg
+
+The website already points to this exact path.
+If you want to replace it later, keep the filename profile.jpeg.
+
+2) PROJECT SCREENSHOTS
+Put your project screenshots here:
+images/projects/
+
+Recommended filenames:
+- smarthire.jpg   (SmartHire screenshot)
+- shopsphere.jpg  (ShopSphere screenshot)
+- bank.jpg        (Bank Management screenshot)
+- travel.jpg      (European Travel DB screenshot)
+- nexora.jpg      (Nexora screenshot)
+
+IMPORTANT:
+The current website uses .svg visual placeholders so the page works immediately.
+If you want to use your own JPG/PNG screenshots, change the corresponding src in index.html:
+images/projects/smarthire.svg -> images/projects/smarthire.jpg
+images/projects/shopsphere.svg -> images/projects/shopsphere.jpg
+images/projects/bank.svg -> images/projects/bank.jpg
+images/projects/travel.svg -> images/projects/travel.jpg
+images/projects/nexora.svg -> images/projects/nexora.jpg
+
+3) RUN
+Open this folder in VS Code.
+Right-click index.html -> Open with Live Server.
